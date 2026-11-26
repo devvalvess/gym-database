@@ -1,6 +1,6 @@
-# gym-database
+# Gym Database
 
-Projeto de modelagem e desenvolvimento de um banco de dados para gerenciamento de uma academia, utilizando Microsoft Access.
+Projeto acadêmico de modelagem e desenvolvimento de um banco de dados para gerenciamento de uma academia, utilizando Microsoft Access.
 
 ## Sobre o projeto
 
@@ -14,28 +14,37 @@ O desenvolvimento contempla a elaboração dos modelos conceituais e a implement
 - **Microsoft Visio:** elaboração do Diagrama Entidade-Relacionamento (DER).
 - **XML:** representação do Modelo Entidade-Relacionamento (MER).
 
+## Modelagem do banco de dados
+
+### Modelo Entidade-Relacionamento (MER)
+
+Representação do modelo conceitual do banco de dados.
+
+![Modelo Entidade-Relacionamento](imagens/mer/modelo-entidade-relacionamento.png)
+
+### Diagrama Entidade-Relacionamento (DER)
+
+Representação gráfica das entidades, atributos e relacionamentos do banco de dados.
+
+![Diagrama Entidade-Relacionamento](imagens/der/diagrama-entidade-relacionamento.png)
+
 ## Estrutura do repositório
 
 ```text
-Base_de_uma_academia_access/
+gym-database/
 │
 ├── imagens/
-│   ├── mer/
-│   └── der/
+│   ├── der/
+│   │   └── diagrama-entidade-relacionamento.png
+│   │
+│   └── mer/
+│       └── modelo-entidade-relacionamento.png
 │
 ├── ACADEMIA.accdb
+├── README.md
 ├── der_academia.vsdx
-├── mer_academia.xml
-└── README.md
+└── mer_academia.xml
 ```
-
-| Arquivo/Pasta | Descrição |
-|---|---|
-| `imagens/` | Imagens relacionadas aos modelos do projeto. |
-| `ACADEMIA.accdb` | Banco de dados desenvolvido no Access. |
-| `der_academia.vsdx` | Diagrama Entidade-Relacionamento. |
-| `mer_academia.xml` | Modelo Entidade-Relacionamento em XML. |
-| `README.md` | Documentação do projeto. |
 
 ## Objetivos do projeto
 
